@@ -1,0 +1,27 @@
+#p1{
+    position: absolute;
+    transform: translate(300px,200px);
+    text-align: center;
+    font-size: large;
+    height: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    width:1000px;
+    
+    background: aliceblue;
+    color: black;
+
+  }
+  #p2
+  {
+    position: absolute;
+    opacity: 80%;
+    height: 750px;
+    width:1800px
+  }
+  #p3
+  {
+    position: absolute;
+    transform: translate(100px,100px);
+    color: white;
+  }

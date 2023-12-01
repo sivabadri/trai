@@ -1,0 +1,87 @@
+#pic3{
+    position:absolute;
+    opacity: 100%;
+    align-items: baseline;
+    height: 800px;
+    width: 1600px;
+
+}
+#logo{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+}
+#head1{
+    position: relative;
+    text-align: center;
+    height: 70px;
+    width: 1000px;
+    border: solid;
+    border-color:antiquewhite;
+    transform: translate(300px,30px);
+    
+    
+}
+#home{
+    position: absolute;
+    transform: translate(350px,50px);
+    text-decoration: none;
+}
+#about{
+    position: absolute;
+    transform: translate(500px,50px);
+    text-decoration: none;
+}
+#ticket{
+    position: absolute;
+    transform: translate(650px,50px);
+    text-decoration: none;
+}
+#Login{
+    position: absolute;
+    transform: translate(800px,50px);
+    text-decoration: none;
+}
+#signup{
+    position: absolute;
+    transform: translate(950px,50px);
+    text-decoration: none;
+}
+#show{
+    position: absolute;
+    transform: translate(1100px,50px);
+    text-decoration: none;
+}
+@keyframes example {
+    from {color: white;}
+    to {color: blue;}
+  }
+  .h1{
+   
+        width: 1000px;
+        height: 70px;
+        
+        animation: example 5s infinite;
+      
+  }
+  .al1:hover{
+
+
+    color: white;
+   
+
+    background-color: black; /* Green */
+    
+    }
+  .al1 {
+    transition-duration: 0.4s;
+    height: 60px;
+    width: 120px;
+    position:absolute;
+    border: solid;
+    background-color: aliceblue;
+    font-size: small;
+    
+    text-align: center;
+  }
+
